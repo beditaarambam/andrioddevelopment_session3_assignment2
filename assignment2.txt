@@ -1,0 +1,20 @@
+class BooleanCompare
+{
+public static void main(String[] args)
+{
+String S1="manei";
+String S2="manei";
+boolean same = true;
+{
+if(same)
+{
+System.out.println("both are equal"+S1.equals(S2));
+}
+same = false;
+if(!same)
+{ 
+System.out.println("both are not equal"+S1.equalsIgnoreCase(S2));
+}
+}
+}
+}
